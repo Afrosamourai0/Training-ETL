@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: my_dbt_db
+    description: "Schéma ou base de données contenant les tables brutes"
+    tables:
+      - name: raw_customers
+        description: "Table contenant les données brutes des clients"
+      - name: raw_orders
+        description: "Table contenant les données brutes des commandes"

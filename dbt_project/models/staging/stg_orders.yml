@@ -1,0 +1,9 @@
+version: 2
+
+models:
+    - name: stg_orders
+      columns:
+        - name: order_id
+        - name: customer_id
+        - name: Date_commande
+        - name: Magasin_id
